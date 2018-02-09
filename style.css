@@ -23,7 +23,30 @@ body {
 	color: white;
 }
 
-
 .info h2 {
 	color: white;
+}
+
+.about-me {
+	background-color: yellow;
+}
+
+.about-me h1 {
+	margin-top: 0; 
+}
+
+.about-me p {
+	margin-bottom: 0;
+}
+
+.education {
+	background-color: blue;
+}
+
+.education h1 {
+	margin-top: 0;
+}
+
+.education p {
+	margin-bottom: 0;
 }
