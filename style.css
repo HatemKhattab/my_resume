@@ -40,7 +40,7 @@ body {
 	font-family: verdana;
 	font-size: 1.5em;
 	margin-top: 0;
-	color: #ff8000; 
+	color: #000; 
 }
 
 .about-me p {
@@ -59,9 +59,9 @@ body {
 
 .education h1 {
 	font-family: verdana;
-	font-size: 1.25em;
+	font-size: 1.125em;
 	margin-top: 0;
-	color: #3366ff;
+	color: #000;
 }
 
 .education p {
@@ -78,9 +78,9 @@ body {
 
 .experience h1 {
 	font-family: verdana;
-	font-size: 1.25em;
+	font-size: 1.125em;
 	margin-top: 0;
-	color: #ff8000;
+	color: #000;
 }
 
 .experience .row {
@@ -97,9 +97,9 @@ body {
 
 .learning-strategies h1 {
 	font-family: verdana;
-	font-size: 1.25em;
+	font-size: 1.125em;
 	margin-top: 0;
-	color: #3366ff;
+	color: #000;
 }
 
 .learning-strategies ul {
@@ -124,9 +124,9 @@ body {
 
 .resources h1 {
 	font-family: verdana;
-	font-size: 1.5em;
+	font-size: 1.125em;
 	margin-top: 0;
-	color: #ff8000;
+	color: #000;
 }
 
 .resources ul li a {
@@ -136,4 +136,25 @@ body {
 
 .resources ul li  {
   padding: 10px; 
+}
+@media only screen and (max-width: 767px) { 
+	.info img {
+	  width: 150px;
+	  height: 150px;
+  }
+
+  .info h1 {
+	  font-size: 2em;
+  }
+  .info h2 {
+	  font-size: 1em;
+  }
+
+  .education .row {
+  	font-size: 0.65em;
+  }
+
+   .experience .row {
+  	font-size: 0.5em;
+  }
 }
