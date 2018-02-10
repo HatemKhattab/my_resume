@@ -3,7 +3,6 @@ body {
 }
 .info {
 	display: flex;
-	/*flex-direction: column;*/
 	align-items: center;
 	background: url("images/info_background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -20,31 +19,49 @@ body {
 }
 
 .info h1 {
-	color: white;
+	color: #00bfff;
+	font-family: Roboto;
+	font-size: 4em;
 }
 
 .info h2 {
-	color: white;
+	color: #ff9933;;
+	font-family: verdana;
+	font-size: 2em;
 }
 
 .about-me {
-	background-color: yellow;
+	background-color: #00bfff;
+	color: #fff;
+	padding: 40px;
 }
 
 .about-me h1 {
-	margin-top: 0; 
+	font-family: verdana;
+	font-size: 1.5em;
+	margin-top: 0;
+	color: #ff8000; 
 }
 
 .about-me p {
 	margin-bottom: 0;
+	font-family: Roboto;
+	font-size: 1.5em;
 }
 
 .education {
-	background-color: blue;
+	background-color: #ff9933;
+	color: white;
+	font-family: verdana;
+	font-size: 1.5em;
+	padding: 40px;
 }
 
 .education h1 {
+	font-family: verdana;
+	font-size: 1.25em;
 	margin-top: 0;
+	color: #3366ff;
 }
 
 .education p {
@@ -52,29 +69,71 @@ body {
 }
 
 .experience {
-	background-color: yellow;
+	background-color: #00bfff;
+	padding: 40px;
+	font-family: Roboto;
+  font-size: 1.5em;
+  color: #fff;
 }
 
 .experience h1 {
+	font-family: verdana;
+	font-size: 1.25em;
 	margin-top: 0;
+	color: #ff8000;
+}
+
+.experience .row {
+  padding: 10px;
 }
 
 .learning-strategies {
-	background-color: blue;
+	background-color: #ff9933;
+	color: white;
+	font-family: verdana;
+	font-size: 1.5em;
+	padding: 40px;
 }
 
 .learning-strategies h1 {
+	font-family: verdana;
+	font-size: 1.25em;
 	margin-top: 0;
+	color: #3366ff;
 }
 
 .learning-strategies ul {
 	margin-bottom: 0;
 }
 
+.learning-strategies ul li a {
+	text-decoration: none;
+	color: white; 
+}
+
+.learning-strategies ul li  {
+  padding: 10px; 
+}
 .resources {
-	background-color: yellow;
+  background-color: #00bfff;
+	padding: 40px;
+	font-family: Roboto;
+  font-size: 1.5em;
+  color: #fff;
 }
 
 .resources h1 {
+	font-family: verdana;
+	font-size: 1.5em;
 	margin-top: 0;
+	color: #ff8000;
+}
+
+.resources ul li a {
+	text-decoration: none;
+	color: white; 
+}
+
+.resources ul li  {
+  padding: 10px; 
 }
