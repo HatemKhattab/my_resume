@@ -125,6 +125,7 @@ body {
 
 .learning-strategies ul {
 	margin-bottom: 0;
+	list-style-type: none;
 }
 
 .learning-strategies ul li a {
@@ -156,6 +157,10 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	color: #000;
+}
+
+.resources ul  {
+	list-style-type: none; 
 }
 
 .resources ul li a {
@@ -192,5 +197,9 @@ body {
 
    .experience .row {
   	font-size: 0.5em;
+  }
+
+  .learning-strategies h1 {
+	  font-size: 0.75em;
   }
 }
