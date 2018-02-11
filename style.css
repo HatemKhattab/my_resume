@@ -37,8 +37,8 @@ body {
 }
 
 .about-me h1 {
-	font-family: verdana;
-	font-size: 1.5em;
+	font-family: Ubuntu;
+	font-size: 1.75em;
 	margin-top: 0;
 	margin-bottom: 0;
 	color: #000; 
@@ -52,7 +52,7 @@ body {
 
 .about-me .icon {
 	color: black;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 10px;
 }
 .education {
@@ -64,10 +64,11 @@ body {
 }
 
 .education h1 {
-	font-family: verdana;
-	font-size: 1.125em;
+	font-family: Ubuntu;
+	font-size: 1.4em;
 	margin-top: 0;
 	margin-bottom: 0;
+	padding-bottom: 10px;
 	color: #000;
 }
 
@@ -90,8 +91,8 @@ body {
 }
 
 .experience h1 {
-	font-family: verdana;
-	font-size: 1.125em;
+	font-family: Ubuntu;
+	font-size: 1.4em;
 	margin-top: 0;
 	margin-bottom: 0;
 	color: #000;
@@ -116,8 +117,8 @@ body {
 }
 
 .learning-strategies h1 {
-	font-family: verdana;
-	font-size: 1.125em;
+	font-family: Ubuntu;
+	font-size: 1.4em;
 	margin-top: 0;
 	margin-bottom: 0;
 	color: #000;
@@ -152,8 +153,8 @@ body {
 }
 
 .resources h1 {
-	font-family: verdana;
-	font-size: 1.125em;
+	font-family: Ubuntu;
+	font-size: 1.4em;
 	margin-top: 0;
 	margin-bottom: 0;
 	color: #000;
