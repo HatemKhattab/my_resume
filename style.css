@@ -40,6 +40,7 @@ body {
 	font-family: verdana;
 	font-size: 1.5em;
 	margin-top: 0;
+	margin-bottom: 0;
 	color: #000; 
 }
 
@@ -49,6 +50,11 @@ body {
 	font-size: 1.5em;
 }
 
+.about-me .icon {
+	color: black;
+	font-size: 2em;
+	padding: 10px;
+}
 .education {
 	background-color: #ff9933;
 	color: white;
@@ -61,11 +67,18 @@ body {
 	font-family: verdana;
 	font-size: 1.125em;
 	margin-top: 0;
+	margin-bottom: 0;
 	color: #000;
 }
 
 .education p {
 	margin-bottom: 0;
+}
+
+.education .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
 }
 
 .experience {
@@ -80,11 +93,18 @@ body {
 	font-family: verdana;
 	font-size: 1.125em;
 	margin-top: 0;
+	margin-bottom: 0;
 	color: #000;
 }
 
 .experience .row {
   padding: 10px;
+}
+
+.experience .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
 }
 
 .learning-strategies {
@@ -99,6 +119,7 @@ body {
 	font-family: verdana;
 	font-size: 1.125em;
 	margin-top: 0;
+	margin-bottom: 0;
 	color: #000;
 }
 
@@ -114,6 +135,13 @@ body {
 .learning-strategies ul li  {
   padding: 10px; 
 }
+
+.learning-strategies .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
 .resources {
   background-color: #00bfff;
 	padding: 40px;
@@ -126,6 +154,7 @@ body {
 	font-family: verdana;
 	font-size: 1.125em;
 	margin-top: 0;
+	margin-bottom: 0;
 	color: #000;
 }
 
@@ -137,6 +166,13 @@ body {
 .resources ul li  {
   padding: 10px; 
 }
+
+.resources .icon {
+	color: black;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
 @media only screen and (max-width: 767px) { 
 	.info img {
 	  width: 150px;
